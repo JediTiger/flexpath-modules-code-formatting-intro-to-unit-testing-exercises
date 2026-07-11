@@ -4,3 +4,9 @@ Exercise 8: Updating Dependencies
 Description: Write out the npm commands for how to check for outdated packages
 and then either update them all or specifically update them 
 to the latest major versions
+
+npm outdated is the command to use to see a listing of the modules installed
+
+npm update is the command to use to update all the packages within the project. Make sure to use the command in the root directory
+
+npm update and the specific package @lates is the command to use for just one package updating to the latest version

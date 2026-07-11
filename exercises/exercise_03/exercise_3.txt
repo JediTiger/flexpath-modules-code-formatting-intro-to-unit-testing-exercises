@@ -6,9 +6,12 @@ Description:
 Create a module named stringUtils.cjs using CommonJS syntax 
 that exports two functions: toUpperCase(str) and toLowerCase(str).
 
+done 
+
 Then, import these functions in app.cjs using 
 `require` and demonstrate their usage.
 
+done
 
 WARNING 
 

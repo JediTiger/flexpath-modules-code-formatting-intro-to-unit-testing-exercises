@@ -7,3 +7,9 @@ Explain the difference between installing a package
 with ^1.0.0, ~1.0.0, and 1.0.0 in the package.json dependencies. 
 
 What do these version specifiers mean?
+
+no beginning character means the version you install is the version that stays and it will not update
+
+the caret allows minor and patch updates but locks the major where it is
+
+the tilde allows just patch updates and locks the major and minor version where they were installed

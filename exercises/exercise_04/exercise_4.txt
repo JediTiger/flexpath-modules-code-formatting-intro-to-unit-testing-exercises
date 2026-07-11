@@ -8,3 +8,6 @@ Explain why mixing ES Modules and CommonJS modules can lead to issues.
 Provide an example where importing a CommonJS module using 
 ES Module syntax causes problems.
 
+The CommonJS system works synchronously. The ES system works asynchronously. This will cause errors during execution
+
+Since CJS works synchronously, importing an ES module, which is asynchronous, would throw an error and the import would fail
