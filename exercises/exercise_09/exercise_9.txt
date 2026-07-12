@@ -9,3 +9,5 @@ root of this project directory using node.
 Name the script 'start'. 
 
 Demonstrate how to run this script using npm.
+
+With the script in place I can simpy enter npm start and it will run the command entered in as 'start'
